@@ -23,8 +23,8 @@ public class SearchInRowColumnWiseSorted {
     public static  void main(String args[])
     {
         int[][] matrix = new int[][]{
-                1,3,4,5
-                6,5,8,0
+                {1,3,4,5},
+                {6,5,8,0}
         };
 
     }
