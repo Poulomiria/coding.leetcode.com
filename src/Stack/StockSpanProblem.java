@@ -45,7 +45,7 @@ public class StockSpanProblem {
             List<Integer> temp = new ArrayList<>();
             temp.add(ele);
             temp.add(i);
-            s.push(temp);
+            s.push(new ArrayList<>(temp));
         }
         return  result;
     }

@@ -21,12 +21,10 @@ public class NextGreaterElementToRight {
             if(s.isEmpty())
             {
                 result.add(-1);
-            }
-            else if(s.size() > 0 && ele < s.peek())
+            }else if(s.size() > 0 && ele < s.peek())
             {
                 result.add(s.peek());
-            }
-            else if(s.size() > 0 && ele >= s.peek())
+            }else if(s.size() > 0 && ele >= s.peek())
             {
                 while(!s.isEmpty() && s.peek() <= ele)
                 {
@@ -38,7 +36,6 @@ public class NextGreaterElementToRight {
                 }else{
                     result.add(s.peek());
                 }
-
             }
             s.push(ele);
         }
