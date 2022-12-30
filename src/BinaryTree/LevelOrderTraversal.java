@@ -3,6 +3,7 @@ package BinaryTree;
 import java.util.ArrayList;
 import java.util.*;
 
+//Time : O(n) Space : O(n)
 public class LevelOrderTraversal {
 
     public List<List<Integer>> levelOrder(TreeNode root) {
